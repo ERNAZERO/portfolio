@@ -7,7 +7,7 @@ const LanguageContext = createContext();
 export const translations = {
   en: {
     nav: {
-      about: "About",
+      about: "About me",
       projects: "Projects",
       contact: "Contact"
     },
@@ -18,7 +18,7 @@ export const translations = {
       downloadCV: "Download CV"
     },
     about: {
-      title: "About Me",
+      title: "About me",
       description: `I am Ernaz Erkinbekov, a Computer Science student with a strong focus on software development and modern AI technologies. My main programming language is Python, and I also work confidently with Java, HTML/CSS, and JavaScript.
 
       I have solid knowledge of frameworks such as Django, FastAPI, Flask, Spring Boot, and tools for data analysis and machine learning including NumPy, Pandas, SciPy, Scikit-learn, LangChain, and Ollama. 
@@ -107,7 +107,7 @@ export const translations = {
       emailSent: "E-Mail erfolgreich gesendet!",
       placeholders: {
         email: "jacob@google.com",
-        subject: "Nur um Hallo zu sagen",
+        subject: "Nur um Hallo zu sagen...",
         message: "Lass uns reden über..."
       }
     },

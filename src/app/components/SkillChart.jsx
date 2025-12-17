@@ -54,20 +54,20 @@ export default function SkillsTabs() {
   };
 
   return (
-    <div className="w-full max-w-2xl mx-auto mt-10">
-      <div className="flex gap-12 mb-6">
+    <div className="w-full max-w-2xl mx-auto mt-10 px-4">
+      <div className="flex gap-4 sm:gap-8 lg:gap-12 mb-6 justify-center sm:justify-start">
         {["skills", "frameworks", "languages"].map((tab) => (
           <button
             key={tab}
             onClick={() => setActive(tab)}
-            className={`text-xl font-semibold tracking-wide ${
+            className={`text-base sm:text-lg lg:text-xl font-semibold tracking-wide ${
               active === tab ? "text-white" : "text-gray-400"
             } transition`}
           >
             {active === tab && (
               <motion.div
                 layoutId="underline"
-                className="h-[3px] bg-blue-400 rounded-full mb-1"
+                className="h-[2px] sm:h-[3px] bg-blue-400 rounded-full mb-1"
               />
             )}
             {t.skills[tab]}
@@ -75,15 +75,15 @@ export default function SkillsTabs() {
         ))}
       </div>
 
-      <div className="flex flex-col gap-5">
+      <div className="flex flex-col gap-4 sm:gap-5">
         {getCurrentData().map((item) => (
           <div key={item.name}>
             <div className="flex justify-between mb-1 px-1">
-              <span className="text-gray-200 font-medium">{item.name}</span>
-              <span className="text-gray-300 text-sm">{getLevelLabel(item.level)}</span>
+              <span className="text-gray-200 font-medium text-sm sm:text-base">{item.name}</span>
+              <span className="text-gray-300 text-xs sm:text-sm">{getLevelLabel(item.level)}</span>
             </div>
 
-            <div className="w-full h-5 bg-white/20 rounded-full overflow-hidden">
+            <div className="w-full h-4 sm:h-5 bg-white/20 rounded-full overflow-hidden">
               <motion.div
                 initial={{ width: 0 }}
                 animate={{ width: `${item.level}%` }}
