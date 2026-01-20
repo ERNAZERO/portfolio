@@ -48,7 +48,7 @@ const HeroSection = () => {
             </Link>
             
             <a
-              href="/cv/CV.pdf"  // ← ИСПРАВЛЕНО: правильный путь к файлу
+              href="/cv/CV.pdf"
               download="Ernaz_Erkinbekov_CV.pdf"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-400 to-blue-700 hover:bg-slate-800 text-white"
             >
@@ -64,14 +64,14 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0 order-1 sm:order-2 mx-auto sm:mx-0"
         >
-          <div className="rounded-full bg-white w-[200px] h-[200px] lg:w-[350px] lg:h-[350px] relative">
+          <div className="rounded-full lg:w-[350px] lg:h-[350px] relative">
             <Image
-              src="/images/portfolio_photo.png"
+              src="/images/portfolio_photo2.png"
               alt="hero image"
               // className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-full" 
-              width={250}
-              height={250}
+              width={350}
+              height={350}
               
             />
           </div>

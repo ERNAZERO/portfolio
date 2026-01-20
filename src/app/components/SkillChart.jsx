@@ -19,6 +19,9 @@ const TABS = {
     { name: "Flask", level: 90 },
     { name: "Spring Boot", level: 75 },
     { name: "Streamlit", level: 75 },
+    { name: "React", level: 75 },
+    { name: "Next.js", level: 75 },
+
   ],
   languages: {
     en: [

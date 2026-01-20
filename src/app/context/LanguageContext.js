@@ -21,7 +21,7 @@ export const translations = {
       title: "About me",
       description: `I am Ernaz Erkinbekov, a Computer Science student with a strong focus on software development and modern AI technologies. My main programming language is Python, and I also work confidently with Java, HTML/CSS, and JavaScript.
 
-      I have solid knowledge of frameworks such as Django, FastAPI, Flask, Spring Boot, and tools for data analysis and machine learning including NumPy, Pandas, SciPy, Scikit-learn, LangChain, and Ollama. 
+      I have solid knowledge of frameworks such as Django, FastAPI, Flask, Spring Boot, React, Next.js and tools for data analysis and machine learning including NumPy, Pandas, SciPy, Scikit-learn, LangChain, and Ollama. 
       
       Additionally, I work with databases like PostgreSQL, MySQL, Redis, and ORMs such as SQLAlchemy and Peewee. I follow clean software development principles (OOP, Scrum) and use Git, GitHub, VS Code and PyCharm as part of my daily workflow.`
     },
@@ -79,7 +79,7 @@ export const translations = {
       title: "Über mich",
       description: `Ich bin Ernaz Erkinbekov, ein Informatikstudent mit starkem Fokus auf Softwareentwicklung und moderne KI-Technologien. Meine Hauptprogrammiersprache ist Python, und ich arbeite auch sicher mit Java, HTML/CSS und JavaScript.
         
-        Ich verfüge über fundierte Kenntnisse in Frameworks wie Django, FastAPI, Flask, Spring Boot sowie Tools für Datenanalyse und maschinelles Lernen wie NumPy, Pandas, SciPy, Scikit-learn, LangChain und Ollama.
+        Ich verfüge über fundierte Kenntnisse in Frameworks wie Django, FastAPI, Flask, Spring Boot, Next.js sowie Tools für Datenanalyse und maschinelles Lernen wie NumPy, Pandas, SciPy, Scikit-learn, LangChain und Ollama.
         
         Zusätzlich arbeite ich mit Datenbanken wie PostgreSQL, MySQL, Redis und ORMs wie SQLAlchemy und Peewee. Ich folge sauberen Softwareentwicklungsprinzipien (OOP, Scrum) und nutze Git, GitHub, VS Code und PyCharm als Teil meines täglichen Workflows.`
     },
